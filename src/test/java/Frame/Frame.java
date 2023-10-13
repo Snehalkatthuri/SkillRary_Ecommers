@@ -31,7 +31,7 @@ public class Frame
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("(//span[text()='Register'])[1]")).click();//Freeze the screen to get address of element
 		//handling frame
-		driver.switchTo().frame("loginIframe");//type iframe in find in console to get loginIFrame
+		driver.switchTo().frame("loginIframe");//type iframe in console to fine get loginIFrame
 		///address of mobile no text field
 		driver.findElement(By.xpath("//input[@placeholder='Mobile Number/ Email']")).sendKeys("Snehal");
 		Thread.sleep(3000);

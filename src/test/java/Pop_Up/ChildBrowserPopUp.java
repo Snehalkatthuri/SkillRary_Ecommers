@@ -28,7 +28,8 @@ public class ChildBrowserPopUp {
         Thread.sleep(3000);
         driver.findElement(By.xpath("(//a[text()=' SkillRary Essay'])[2]")).click();
         
-        Thread.sleep(3000);Set<String> child = driver.getWindowHandles();
+        Thread.sleep(3000);
+        Set<String> child = driver.getWindowHandles();
         for(String b:child)
         {
         	driver.switchTo().window(b);
