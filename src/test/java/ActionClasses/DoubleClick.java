@@ -29,7 +29,7 @@ public class DoubleClick {
 				a.doubleClick(plus).perform();
 				driver.findElement(By.xpath("//button[@ondblclick='addtocart()']")).click();
 
-		//I Updated My name.
+		//I Updated My name is Snehal.
 
 	}
 
